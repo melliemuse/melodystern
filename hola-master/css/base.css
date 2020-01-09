@@ -140,6 +140,9 @@ audio:not([controls]) {
 img {
     border-style: none;
 }
+.headshot {
+    border: solid 2px black;
+}
 
 svg:not(:root) {
     overflow: hidden;

@@ -200,12 +200,20 @@ p.lead {
     font-size: 2rem;
     line-height: 1.8;
     margin-bottom: 3.6rem;
-    color: #0D0A0B;
+    /* color: rgba(13, 10, 11, 0.452); */
+    text-align: left;
 }
+.page-hero {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../images/me.jpg");
+}
+
 
 @media only screen and (max-width: 800px) {
     p.lead {
         font-size: 1.8rem;
+        text-align: left;
     }
 }
 
@@ -1262,7 +1270,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 
 .section-intro {
-    text-align: center;
+    text-align: left;
     position: relative;
 }
 
